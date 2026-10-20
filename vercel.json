@@ -1,0 +1,7 @@
+{
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "functions": {
+    "app/api/decompile/route.ts": { "maxDuration": 60, "memory": 1024 }
+  }
+}
